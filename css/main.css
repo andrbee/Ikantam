@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form__auth {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title__form_auth {
+    text-align: center;
+    font-weight: bold;
+}
+
+.auth__user_login, .auth__user_pass, .auth__submit {
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.auth__user_login, .auth__user_pass {
+    border: 1px solid grey;
+    min-height: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.auth__submit, .file_upload {
+    background-color: #00a178;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.notification {
+    text-align: center;
+    color: red;
+}
+
+.title__cur__auth {
+    text-align: center;
+}
+
+.link__files {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    color: #00a178;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link__log_out {
+    display: block;
+    text-align: center;
+    color: #0a6aa1;
+}
+
+.title__my_files {
+    text-align: center;
+    text-transform: uppercase;
+    color: #00a178;
+}
+
+.tbl__files {
+    width: 100%;
+    margin-bottom: 40px;
+    /*border-collapse: collapse;*/
+}
+
+.tbl__files th {
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.tbl__files tr:first-of-type {
+    background: #e8e8e8;
+}
+
+.tbl__files th:first-of-type {
+    width: 10%;
+}
+
+.tbl__files th:nth-of-type(2) {
+    width: 50%;
+    text-align: left;
+}
+.tbl__files th:nth-of-type(3) {
+    width: 20%;
+    text-align: center;
+}
+
+.tbl__files th:last-of-type {
+    width: 20%;
+}
+
+.tbl__files td:not(:nth-of-type(2)) {
+    text-align: center;
+}
+
+.tbl__files td {
+    padding: 2px 10px 2px 10px;
+}
